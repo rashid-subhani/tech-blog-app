@@ -1,12 +1,16 @@
-require('dotenv').config(); // Loads .env variables
-
-const express = require('express');
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcryptjs');
-const { DataTypes } = require('sequelize');
-const sequelize = require('./config/connection');
+const express = require("express");
+const sequelize = require("./config/connection");
+const routes = require("./routes");
+const dotenv = require("dotenv");
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-const SECRET_KEY = process.env.JWT_SECRET || "fallback_secret"; // Use from .env
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use("/api", routes);
+
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+});
