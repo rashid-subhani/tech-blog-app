@@ -1,22 +1,22 @@
-# 📝 Tech Blog App
+# 📝 Tech Blog App 
 
 A full-stack blogging platform where users can sign up, log in, and manage their own blog posts with secure authentication and category-based filtering.
 
 ## 🚀 Features
 
-- User registration and login with password hashing and JWT authentication
-- Create, read, update, and delete blog posts
-- Posts linked to users; only post owners can edit/delete
-- Posts include title, content, and optional category
-- Frontend interacts with backend via RESTful API
-- Protected routes with token-based access control
+- User registration and login with password hashing and JWT authentication  
+- Create, read, update, and delete blog posts  
+- Posts linked to users; only post owners can edit/delete  
+- Posts include title, content, and optional category  
+- Frontend interacts with backend via RESTful API  
+- Protected routes with token-based access control  
 
 ## 📦 Technologies Used
 
-- **Backend:** Node.js, Express, Sequelize, MySQL
-- **Authentication:** JSON Web Token (JWT), bcryptjs
-- **Frontend:** HTML, CSS, JavaScript (Vanilla)
-- **Deployment:** Railway
+- **Backend:** Node.js, Express, Sequelize, MySQL  
+- **Authentication:** JSON Web Token (JWT), bcryptjs  
+- **Frontend:** HTML, CSS, JavaScript (Vanilla)  
+- **Demo:** [📹 Watch Demo on Screencastify](https://app.screencastify.com/watch/jI65DfBYqWMc0cKbVLlY)  
 
 ---
 
@@ -24,8 +24,10 @@ A full-stack blogging platform where users can sign up, log in, and manage their
 
 ### 1. Clone the repository
 
+```bash
 git clone https://github.com/yourusername/tech-blog-app.git
 cd tech-blog-app
+
 ````
 
 ### 2. Install dependencies
@@ -86,18 +88,11 @@ Open `index.html` directly in your browser.
 
 ---
 
-## 🚀 Deployment
+📹 Demo
 
-### Deployed to [Railway](https://railway.app/)
+👉 Watch the Demo Video above
 
 ---
-
-## 📹 Screenshots
-
-* 🖼️ [SignUp page](challenge/tech-blog-app/screenshots/blog_app_signup.JPG)
-* 🖼️ [Create Page](challenge/tech-blog-app/screenshots/blog_app_create.JPG)
-* 🖼️ [App posts](challenge/tech-blog-app/screenshots/blog_app_all_postsJPG.JPG)
-
 
 ---
 
