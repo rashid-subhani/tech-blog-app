@@ -94,8 +94,6 @@ Open `index.html` directly in your browser.
 
 ---
 
----
-
 ## 🙌 Credits
 
 * Built with 💻 by Rashid Subhani
